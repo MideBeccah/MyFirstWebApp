@@ -1,92 +1,103 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Mofe confectioneries</title>
-    </head>
-    <h1><em>Mofe Buredi</em></h1>
-    <body>
-        <div style="color:pink">
-            <img src="">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mofe Confectioneries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><em>Mofe Buredi</em></h1>
+        <div class="content">
+            <img src="" alt="Bread Image">
             <p>Bread is a staple food prepared <b>from a dough of flour and water</b>, usually by baking. Throughout recorded history and around the world, it has been an important part of many cultures' diet.</p>
             <br>
-            <p>Mofe buredi is the best example of the <strong.>delicious</strong.> bread made with love and appreciation of culture as it incoporate both western and historical cultural ingredients in it recipe</p>
-            <!--<p>western and cultural ingredient choice are used to suite modern taste without neglecting the historic discovery of the staple making room for of our mothers mud ovens to be appreciated-->
-                <br>
-                <i><span style="color:navy">bread de la cruz un pursuit</span> de la validre</i>
-                <h2>Machines and Ingredients</h2>
-                <ol>Machines
-                    <li>Oven</li>
-                    <li>Mixer</li>
-                    <li>Rack</li>
-                    <li>Generator</li>
-                </ol>
-                <ul>Ingredients
-                    <li>Flour</li>
-                    <li>Sugar</li>
-                    <li>Milk</li>
-                    <li>Cinnamon</li>
-                    <li>Butter</li>
-                </ul>
-                <a href=""></a>
-                <table border="1">Nutritional Fact
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Fat</th>
-                            <th>Carbohydrate</th>
-                            <th>Calories</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Butter</td>
-                            <td>2</td>
-                            <td>1.06</td>
-                            <td>20</td>
-                        </tr>
-                         <tr>
-                            <td>Milk</td>
-                            <td>5</td>
-                            <td>15</td>
-                            <td>16</td>
-                        </tr> 
-                        <tr>
-                            <td>Cornstarch</td>
-                            <td>9</td>
-                            <td>43</td>
-                            <td>19</td>
-                        </tr>
-                         <tr>
-                            <td>Sugar</td>
-                            <td>16</td>
-                            <td>98.2</td>
-                            <td>0.3</td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
-            </div>
-            <head>
-                <title>Order</title>
-            </head>
-            <h2>Order Form</h2>
-            <form>
-                <label>Name:<input type="text" Name="UserName" placeholder="UserName" Required></label><br>
-                
-                <label>Male:<input type="checkbox" Name="Gender" value="Male"></label>
-                <label>Female:<input type="checkbox" Name="Gender" value="Female"></label>
-                <label>Others:<input type="checkbox" Name="Gender" value="Others"></label><br>
+            <p>Mofe buredi is the best example of the <strong>delicious</strong> bread made with love and appreciation of culture as it incorporates both western and historical cultural ingredients in its recipe.</p>
+            <!--<p>Western and cultural ingredient choices are used to suit modern tastes without neglecting the historic discovery of the staple, making room for our mothers' mud ovens to be appreciated.</p>-->
+            <br>
+            <i><span>bread de la cruz un pursuit</span> de la validre</i>
+            <h2>Machines and Ingredients</h2>
+            <ol>
+                <li>Oven</li>
+                <li>Mixer</li>
+                <li>Rack</li>
+                <li>Generator</li>
+            </ol>
+            <ul>
+                <li>Flour</li>
+                <li>Sugar</li>
+                <li>Milk</li>
+                <li>Cinnamon</li>
+                <li>Butter</li>
+            </ul>
+            <a href=""></a>
+            <table>
+                <caption>Nutritional Facts</caption>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Fat (g)</th>
+                        <th>Carbohydrate (g)</th>
+                        <th>Calories (kcal)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Butter</td>
+                        <td>2</td>
+                        <td>1.06</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Milk</td>
+                        <td>5</td>
+                        <td>15</td>
+                        <td>16</td>
+                    </tr> 
+                    <tr>
+                        <td>Cornstarch</td>
+                        <td>9</td>
+                        <td>43</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>Sugar</td>
+                        <td>16</td>
+                        <td>98.2</td>
+                        <td>0.3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-                <label>Email:<input type="email" Name="Email" value="bread@mail.com"></label><br>
-
-                <label>Password:<input type="password" Name="password" placeholder="oit424$"pattern.(alpha numeric 6,12) required title="Alphanumeric lenth of 6to 12"></label><br>
-                
-                <label for="">numeric:</label>
-                <label id="numeric" name="Numbers">
-                    <option></option>
-                </label>
-
-            </form>
-
-    </body>
+        <h2>Order Form</h2>
+        <form>
+            <label>
+                Name:
+                <input type="text" name="UserName" placeholder="UserName" required>
+            </label><br>
+            <label>
+                Gender:
+                <input type="radio" name="Gender" value="Male" required> Male
+                <input type="radio" name="Gender" value="Female" required> Female
+                <input type="radio" name="Gender" value="Others" required> Others
+            </label><br>
+            <label>
+                Email:
+                <input type="email" name="Email" value="bread@mail.com">
+            </label><br>
+            <label>
+                Password:
+                <input type="password" name="password" placeholder="oit424$" pattern="[A-Za-z0-9]{6,12}" required title="Alphanumeric length of 6 to 12">
+            </label><br>
+            <label>
+                Numeric:
+                <select name="Numbers">
+                    <option value="">Select</option>
+                </select>
+            </label>
+        </form>
+    </div>
+</body>
 </html>
